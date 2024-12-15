@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCart - Buy Gadgets Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>MyCart</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to MyCart</h2>
+        <p>Your one-stop shop for the best gadgets online.</p>
+        <button>Shop Now</button>
+    </section>
+
+    <section class="products">
+        <h2>Featured Gadgets</h2>
+        <div class="product-list">
+            <!-- Example product -->
+            <div class="product-item">
+                <img src="gadget1.jpg" alt="Gadget 1">
+                <h3>Smartphone</h3>
+                <p>$499</p>
+                <button onclick="addToCart('Smartphone', 499)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="gadget2.jpg" alt="Gadget 2">
+                <h3>Wireless Headphones</h3>
+                <p>$199</p>
+                <button onclick="addToCart('Wireless Headphones', 199)">Add to Cart</button>
+            </div>
+            <!-- More products can be added similarly -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MyCart.com - All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
